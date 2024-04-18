@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:hsl(204, 43%, 93%);
+  font-family: Karla;
+  padding-top: 45%;
+  padding-bottom: 45%;
+  padding-right: 5%;
+  padding-left:5%;
+}
+.attribution { 
+    font-size: 16px; 
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    color: black;
+    top: 40px;
+    font-weight: bold;
+   }
+.attribution a { 
+    color: black; 
+    text-decoration: none;
+    }
+.card{
+  border-radius: 4px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.top-section{
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px;
+}
+.title{
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 20px;
+  font-size: 20.5px;
+}
+.guarantee{
+  color: hsl(71, 92%, 60%);
+  font-weight: bold;
+  font-size: 15.5px;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+.about{
+  color: hsl(218, 22%, 67%);
+  line-height: 26px;
+  font-size: 16px;
+}
+.middle-section{
+  background-color: hsl(179, 62%, 43%);
+  padding: 25px;
+  color: hsl(204, 43%, 93%);
+}
+.subtitle{
+  margin-bottom: 20px;
+  font-size: 20.5px;
+}
+.price{
+  display: flex;
+  margin-bottom: 10px;
+}
+.plan{
+  color: hsl(179, 65%, 49%);
+  display: flex;
+  align-self: center;
+  margin-left: 10px;
+}
+.money{
+  font-weight: bold;
+  font-size: 25px;
+}
+.Subscription-plan{
+  margin-bottom: 15px;
+  color: rgb(195, 248, 248);
+}
+.sign-up-button{
+  text-align: center;
+  width: 100%;
+}
+.sign-up{
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+}
+.end{
+  background-color:hsl(179, 60%, 49%);
+  padding: 25px;
+}
+.order{
+  list-style: none;
+}
+.third-title{
+  margin-bottom: 20px;
+  font-size: 20.5px;
+  color: white;
+}
+.list-item{
+  margin-bottom: 6px;
+  color: beige;
+  color: rgb(195, 248, 248);
+  font-size: 16px;
+}
+@media(min-width:710px){
+  .card{
+  border-radius: 4px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  width: 660px;
+}
+.bottom-section{
+  display: flex;
+}
+.middle-section{
+  background-color: hsl(179, 62%, 43%);
+  padding: 25px;
+  color: hsl(204, 43%, 93%);
+  width: 50%;
+}
+.end{
+  background-color:hsl(179, 60%, 49%);
+  padding: 25px;
+  width: 50%;
+}
+.price{
+  display: flex;
+  margin-bottom: 20px;
+}
+.plan{
+  color: hsl(179, 65%, 49%);
+  display: flex;
+  align-self: center;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.money{
+  font-weight: bold;
+  font-size: 30px;
+}
+.Subscription-plan{
+  margin-bottom: 15px;
+  color: rgb(195, 248, 248);
+}
+.sign-up-button{
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.sign-up{
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:hsl(204, 43%, 93%);
+  font-family: Karla;
+  padding: 0;
+}
+}
